@@ -3,7 +3,7 @@
 body{
     background-color: lightblue;
 }
-.nav{
+.inav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
