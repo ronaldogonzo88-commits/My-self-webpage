@@ -7,7 +7,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 20px 20px 20px 20px;
     background-color: rgb(19, 94, 119);
     
 }
@@ -35,4 +34,22 @@ body{
 }
 .islideshow img:first-child{
     display: block;
+}
+.itable{
+    table-layout: auto;
+    text-align: left;
+    width: 45%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.itable, td, tr{
+    border: 1px solid black;
+    padding: 5px;
+}
+.iwrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 20px;
 }
