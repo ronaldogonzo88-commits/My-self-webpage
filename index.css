@@ -12,10 +12,27 @@ body{
     
 }
 /*links css*/
-.nav a{
+.inav a{
     color: black;
-    background-color: blue;
+    background-color: lightblue;
+    padding: 10px 20px;
+    margin: 20px 20px 20px 20px;
 }
-.nav a:hover{
-    color: brown;
+.inav a:hover{
+    color: rgb(184, 164, 164);
+}
+.islideshow{
+    width: 48%;
+    height: 450px;
+    position: relative;
+}
+.islideshow img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: none;
+}
+.islideshow img:first-child{
+    display: block;
 }
