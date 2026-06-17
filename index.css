@@ -1,0 +1,21 @@
+/*Index css*/
+/*Navigation of home page*/
+body{
+    background-color: lightblue;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(19, 94, 119);
+    
+}
+/*links css*/
+.nav a{
+    color: black;
+    background-color: blue;
+}
+.nav a:hover{
+    color: brown;
+}
