@@ -10,7 +10,6 @@ body{
     background-color: rgb(19, 94, 119);
     
 }
-/*links css*/
 .inav a{
     color: black;
     background-color: lightblue;
@@ -52,4 +51,20 @@ body{
     align-items: flex-start;
     gap: 50px;
     margin-top: 20px;
+}
+/*Css for the gallery page*/
+.gnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: first end;
+    background-color: rgb(19, 94, 119);
+}
+.gnav a{
+    color: black;
+    background-color: lightblue;
+    padding: 10px 20px;
+    margin: 20px 20px 20px 20px;
+}
+.gnav a:hover{
+    color: rgb(184, 164, 164);
 }
