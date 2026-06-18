@@ -68,3 +68,20 @@ body{
 .gnav a:hover{
     color: rgb(184, 164, 164);
 }
+.gtext{
+    text-align: center;
+}
+.gpic-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.gpic-grid img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
