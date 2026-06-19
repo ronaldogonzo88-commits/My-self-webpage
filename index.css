@@ -86,3 +86,62 @@ body{
     margin-bottom: 10px;
 }
 /*Contact page*/
+.c-body{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    max-width: fit-content;
+    margin-left: 20em;
+    margin-top: 3em;
+    border-radius: 1em;
+}
+.c-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: .5em;
+    text-align: center;
+}
+.f-form{
+    display: flex;
+    flex-direction: column;
+    margin: 2empx;
+    width: 400px;
+    align-items: center;
+}
+.inputtext{
+    width:300px;
+    padding: 10px;
+    gap: .5em;
+    margin: 1em;
+    margin-left: 2.8em;
+    align-items: center;
+}
+.dtime{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10.6em;
+    width: 150px;
+    gap: .3em;
+}
+.dtm{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1em;
+}
+.button{
+    display: flex;
+    margin: 1em 1em 1em 1em;
+    gap: 1em;
+    margin-right: 13.5em;
+}
+.button1:hover{
+    color: blue;
+    background-color: black;
+}
+.here{
+    margin-right: 9em;
+    margin-bottom: 3em;
+}
+.here a:hover{
+    color: blue;
+    background-color: black;
+}
